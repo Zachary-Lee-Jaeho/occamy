@@ -1,0 +1,106 @@
+{
+  "cores" : [
+    {
+      "core_id" : 0,
+      "core_type" : "DRAM",
+      "base_addr" : "0x0000000",
+      "memory_size" : "4294967296"
+    },
+    {
+      "core_id" : 1,
+      "core_type" : "PE",
+      "base_addr" : "0x100000000",
+      "memory_size" : "4194304"
+    },
+    {
+      "core_id" : 2,
+      "core_type" : "PE",
+      "base_addr" : "0x100400000",
+      "memory_size" : "4194304"
+    },
+    {
+      "core_id" : 3,
+      "core_type" : "PE",
+      "base_addr" : "0x100800000",
+      "memory_size" : "4194304"
+    },
+    {
+      "core_id" : 4,
+      "core_type" : "PE",
+      "base_addr" : "0x100C00000",
+      "memory_size" : "4194304"
+    },
+    {
+      "core_id" : 5,
+      "core_type" : "PE",
+      "base_addr" : "0x0000000",
+      "memory_size" : "4294967296"
+    },
+    {
+      "core_id" : 6,
+      "core_type" : "PE",
+      "base_addr" : "0x100000000",
+      "memory_size" : "4194304"
+    },
+    {
+      "core_id" : 7,
+      "core_type" : "PE",
+      "base_addr" : "0x100400000",
+      "memory_size" : "4194304"
+    },
+    {
+      "core_id" : 8,
+      "core_type" : "PE",
+      "base_addr" : "0x100800000",
+      "memory_size" : "4194304"
+    },
+    {
+      "core_id" : 9,
+      "core_type" : "PE",
+      "base_addr" : "0x100C00000",
+      "memory_size" : "4194304"
+    },
+    {
+      "core_id" : 10,
+      "core_type" : "PE",
+      "base_addr" : "0x0000000",
+      "memory_size" : "4294967296"
+    },
+    {
+      "core_id" : 11,
+      "core_type" : "PE",
+      "base_addr" : "0x100000000",
+      "memory_size" : "4194304"
+    },
+    {
+      "core_id" : 12,
+      "core_type" : "PE",
+      "base_addr" : "0x100400000",
+      "memory_size" : "4194304"
+    },
+    {
+      "core_id" : 13,
+      "core_type" : "PE",
+      "base_addr" : "0x100800000",
+      "memory_size" : "4194304"
+    },
+    {
+      "core_id" : 14,
+      "core_type" : "PE",
+      "base_addr" : "0x100C00000",
+      "memory_size" : "4194304"
+    },
+    {
+      "core_id" : 15,
+      "core_type" : "PE",
+      "base_addr" : "0x0000000",
+      "memory_size" : "4294967296"
+    },
+    {
+      "core_id" : 16,
+      "core_type" : "PE",
+      "base_addr" : "0x100000000",
+      "memory_size" : "4194304"
+    }
+  ]
+}

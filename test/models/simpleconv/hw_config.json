@@ -1,0 +1,34 @@
+{
+  "num_cores" : 16,
+  "core_clock_GHz" : 2.2,
+  "core_GOPS" : 2.2,
+
+  "batch_pipelining" : true,
+  "num_pipeline_stages" : 4,
+
+  "memory_map_file" : "memory_map.json",
+  "output_directory" : "trace_files",
+  "single_core_perf_est" : "simple",
+
+  "__comment__" : "latency : us",
+  "__comment__" : "throughput : Gbps",
+  "read_latency" : 1.0,
+  "read_throughput" : 4.86,
+  "write_latency" : 1.0,
+  "write_throughput" : 22.3,
+
+  "split_modes" : [
+    {
+      "op_name" : "conv",
+      "mode" : "match_num_cores",
+      "__comment__" : "conv size = [N, K, C, X, Y]",
+      "conv_size" : [0, 0, 64, 512, 512],
+      "secondary_mode" : "X"
+    },
+    {
+      "op_name" : "gemm",
+      "mode" : "fixed_size"
+    }
+  ]
+}
+
